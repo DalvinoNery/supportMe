@@ -1,12 +1,10 @@
 import express from "express";
 import swaggerUi from "swagger-ui-express";
-import routes from "./src/routes/postsRoutes.js";
+import routes from "./src/routes/chamadosRoutes.js";
 import swaggerSpec from './src/config/swaggerConfig.js';
 
 // **Criando a aplicação Express**
 const app = express();
-
-app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 // Configurar o Swagger
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));

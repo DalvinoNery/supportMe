@@ -4,11 +4,11 @@ const swaggerOptions = {
   swaggerDefinition: {
     openapi: "3.0.0",
     info: {
-        title: "InstaByte",
+        title: "SupportMe",
         version: "1.0.0",
-        description: "API do Curso de Imersão Back-End Alura",
+        description: "API back-end para auxiliar o suporte nas resposta de retorno ao usuário",
       },
-    customSiteTitle: "InstaByte",
+    customSiteTitle: "SupportMe",
     servers: [
       {
         url: "http://localhost:3000",
